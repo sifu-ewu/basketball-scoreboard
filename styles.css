@@ -5,7 +5,11 @@ body{
 .container{
     display: flex;
     justify-content: space-around;
+ 
+ 
 }
+
+
 .container h3{
     color: white;
     font-size: 40px;
@@ -14,8 +18,9 @@ body{
     margin-top: 40px;
     text-align: center;
 }
-.home-score-container, .guest-score-container{
+.home-score-container, .guest-score-container,.time-container{
     background-color: #080001;
+    padding-top: 10px;
     border-radius: 5px;
     width: 155px;
     height: 120px;
@@ -26,13 +31,18 @@ body{
     justify-content: center;
     align-items: center;
 }
-.home-score-buttons, .guest-score-buttons{
+.time-container{
+    font-size: 40px;
+}
+    
+.home-score-buttons, .guest-score-buttons,.time-buttons{
     margin-top: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
-.home-score-button, .guest-score-button{
+.home-score-button, .guest-score-button,.time-button{
     width: 45px;
     height: 45px;
     border-radius: 5px;
@@ -44,3 +54,7 @@ body{
 }
     
     
+.time-button{
+   font-size: 10px;
+}
+
