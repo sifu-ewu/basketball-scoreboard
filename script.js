@@ -1,7 +1,15 @@
-let homeScore = document.getElementsByClassName("home-score-container");
-let guestScore = document.getElementsByClassName("guest-score-container");
-let time = document.getElementsByClassName("time-container");
+let homeScore = document.getElementById("home-score");
+let guestScore = document.getElementById("guest-score");
+let time = document.getElementById("time");
 
+let homeScoreValue = 0;
+let guestScoreValue = 0;
+let timeValue = 0;
+
+function homeScoreAdd(num) {
+    homeScoreValue += num;
+    homeScore.textContent = homeScoreValue;
+}
 
 
 

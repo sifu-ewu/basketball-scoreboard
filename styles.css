@@ -1,16 +1,13 @@
-body{
+body {
     background-color: #1B244A;
 }
 
-.container{
+#container {
     display: flex;
     justify-content: space-around;
- 
- 
 }
 
-
-.container h3{
+h3 {
     color: white;
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -18,7 +15,8 @@ body{
     margin-top: 40px;
     text-align: center;
 }
-.home-score-container, .guest-score-container,.time-container{
+
+#home-score, #guest-score, #time {
     background-color: #080001;
     padding-top: 10px;
     border-radius: 5px;
@@ -31,18 +29,22 @@ body{
     justify-content: center;
     align-items: center;
 }
-.time-container{
+
+#time {
     font-size: 40px;
 }
-    
-.home-score-buttons, .guest-score-buttons,.time-buttons{
+
+#home-buttons, #guest-buttons, #time-buttons {
     margin-top: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
-.home-score-button, .guest-score-button,.time-button{
+
+#home-btn-1, #home-btn-2, #home-btn-3,
+#guest-btn-1, #guest-btn-2, #guest-btn-3,
+#start-btn, #stop-btn, #reset-btn {
     width: 45px;
     height: 45px;
     border-radius: 5px;
@@ -54,21 +56,15 @@ body{
     cursor: pointer;
     transition: all 0.1s ease;
 }
-    
-    
-.time-button{
-   font-size: 10px;
+
+#start-btn, #stop-btn, #reset-btn {
+    font-size: 10px;
 }
 
-/* Button press effect */
-
-/* Hover effect */
-.home-score-button:hover, 
-.guest-score-button:hover,
-.time-button:hover {
+#home-btn-1:hover, #home-btn-2:hover, #home-btn-3:hover,
+#guest-btn-1:hover, #guest-btn-2:hover, #guest-btn-3:hover,
+#start-btn:hover, #stop-btn:hover, #reset-btn:hover {
     background-color: #242f5c;
     border-color: #b3bfe6;
 }
-
-/* Optional: Add focus outline for accessibility */
 
